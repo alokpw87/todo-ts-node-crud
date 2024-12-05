@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db';
 import { connectRedis } from './config/redis';
-import router from './routes/todoRoutes';
+import router from './route/routes';
 
 dotenv.config();
 
