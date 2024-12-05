@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 app.use(bodyParser.json());
-app.use('/v1/api/todos',router);
+app.use('/v1/api',router);
 
 connectDB();
 connectRedis();
